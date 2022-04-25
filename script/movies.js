@@ -15,7 +15,7 @@ async function searchMovies(){
 
     let input = document.querySelector("#search").value;
 
-   let res = await fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=d91931c2=${input}`);
+   let res = await fetch(`www.omdbapi.com/?i=tt3896198&apikey=d91931c2=${input}`);
 
    let data = await res.json();
    let movies = data.Search;
